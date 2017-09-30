@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A04349391F1DAACB0021F8E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A04349381F1DAACB0021F8E3 /* main.m */; };
+		A043493C1F1DAACB0021F8E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A043493B1F1DAACB0021F8E3 /* AppDelegate.m */; };
+		A043493F1F1DAACB0021F8E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A043493E1F1DAACB0021F8E3 /* ViewController.m */; };
+		A04349421F1DAACB0021F8E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A04349401F1DAACB0021F8E3 /* Main.storyboard */; };
+		A04349441F1DAACB0021F8E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A04349431F1DAACB0021F8E3 /* Assets.xcassets */; };
+		A04349471F1DAACB0021F8E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A04349451F1DAACB0021F8E3 /* LaunchScreen.storyboard */; };
+		A043495F1F1DAE1F0021F8E3 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = A043495E1F1DAE1F0021F8E3 /* Podfile */; };
+		A04349611F1DB1D00021F8E3 /* XESLogger.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A04349601F1DB1D00021F8E3 /* XESLogger.podspec */; };
+		A0434B2C1F220B000021F8E3 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A0434B2B1F220B000021F8E3 /* README.md */; };
+		A07B06B71F69336B00743893 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A07B06B61F69336B00743893 /* libz.tbd */; };
+		A89DBA06855ACA5FFD3E8EC3 /* libPods-XESLoggerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22355090E55718ECFB7CCB7A /* libPods-XESLoggerDemo.a */; };
+		C6BEC0B41F7F459200468038 /* libXESLoggerLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6BEC0B01F7F459200468038 /* libXESLoggerLibrary.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22355090E55718ECFB7CCB7A /* libPods-XESLoggerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XESLoggerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44F0EC73248F0A80E768360A /* Pods-XESLoggerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XESLoggerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XESLoggerDemo/Pods-XESLoggerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		645A1AC036BB703510DD727B /* Pods-XESLoggerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XESLoggerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-XESLoggerDemo/Pods-XESLoggerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A04349341F1DAACB0021F8E3 /* XESLoggerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XESLoggerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A04349381F1DAACB0021F8E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A043493A1F1DAACB0021F8E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A043493B1F1DAACB0021F8E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A043493D1F1DAACB0021F8E3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A043493E1F1DAACB0021F8E3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A04349411F1DAACB0021F8E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A04349431F1DAACB0021F8E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A04349461F1DAACB0021F8E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A04349481F1DAACB0021F8E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A043495E1F1DAE1F0021F8E3 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		A04349601F1DB1D00021F8E3 /* XESLogger.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = XESLogger.podspec; path = ../XESLogger.podspec; sourceTree = "<group>"; };
+		A0434B2B1F220B000021F8E3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A07B06B61F69336B00743893 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		C6BEC0B01F7F459200468038 /* libXESLoggerLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libXESLoggerLibrary.a; sourceTree = "<group>"; };
+		C6BEC0B11F7F459200468038 /* XESLogFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XESLogFileManager.h; sourceTree = "<group>"; };
+		C6BEC0B21F7F459200468038 /* XESLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XESLogFormatter.h; sourceTree = "<group>"; };
+		C6BEC0B31F7F459200468038 /* XESLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XESLogger.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A04349311F1DAACB0021F8E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6BEC0B41F7F459200468038 /* libXESLoggerLibrary.a in Frameworks */,
+				A07B06B71F69336B00743893 /* libz.tbd in Frameworks */,
+				A89DBA06855ACA5FFD3E8EC3 /* libPods-XESLoggerDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BC34F3F158DBDE39BCC48F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A07B06B61F69336B00743893 /* libz.tbd */,
+				22355090E55718ECFB7CCB7A /* libPods-XESLoggerDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A043492B1F1DAACB0021F8E3 = {
+			isa = PBXGroup;
+			children = (
+				A0434B2B1F220B000021F8E3 /* README.md */,
+				A04349601F1DB1D00021F8E3 /* XESLogger.podspec */,
+				A043495E1F1DAE1F0021F8E3 /* Podfile */,
+				A04349361F1DAACB0021F8E3 /* XESLoggerDemo */,
+				A04349351F1DAACB0021F8E3 /* Products */,
+				CB86B60406AF00E992BA0D7C /* Pods */,
+				7BC34F3F158DBDE39BCC48F5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A04349351F1DAACB0021F8E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A04349341F1DAACB0021F8E3 /* XESLoggerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A04349361F1DAACB0021F8E3 /* XESLoggerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A043493A1F1DAACB0021F8E3 /* AppDelegate.h */,
+				A043493B1F1DAACB0021F8E3 /* AppDelegate.m */,
+				A043493D1F1DAACB0021F8E3 /* ViewController.h */,
+				A043493E1F1DAACB0021F8E3 /* ViewController.m */,
+				C6BEC0AF1F7F459200468038 /* XESLogger */,
+				A04349401F1DAACB0021F8E3 /* Main.storyboard */,
+				A04349431F1DAACB0021F8E3 /* Assets.xcassets */,
+				A04349451F1DAACB0021F8E3 /* LaunchScreen.storyboard */,
+				A04349481F1DAACB0021F8E3 /* Info.plist */,
+				A04349371F1DAACB0021F8E3 /* Supporting Files */,
+			);
+			path = XESLoggerDemo;
+			sourceTree = "<group>";
+		};
+		A04349371F1DAACB0021F8E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A04349381F1DAACB0021F8E3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C6BEC0AF1F7F459200468038 /* XESLogger */ = {
+			isa = PBXGroup;
+			children = (
+				C6BEC0B01F7F459200468038 /* libXESLoggerLibrary.a */,
+				C6BEC0B11F7F459200468038 /* XESLogFileManager.h */,
+				C6BEC0B21F7F459200468038 /* XESLogFormatter.h */,
+				C6BEC0B31F7F459200468038 /* XESLogger.h */,
+			);
+			path = XESLogger;
+			sourceTree = "<group>";
+		};
+		CB86B60406AF00E992BA0D7C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44F0EC73248F0A80E768360A /* Pods-XESLoggerDemo.debug.xcconfig */,
+				645A1AC036BB703510DD727B /* Pods-XESLoggerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A04349331F1DAACB0021F8E3 /* XESLoggerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A043494B1F1DAACB0021F8E3 /* Build configuration list for PBXNativeTarget "XESLoggerDemo" */;
+			buildPhases = (
+				2BC4080EDCDB4F422D9A0B2B /* [CP] Check Pods Manifest.lock */,
+				A04349301F1DAACB0021F8E3 /* Sources */,
+				A04349311F1DAACB0021F8E3 /* Frameworks */,
+				A04349321F1DAACB0021F8E3 /* Resources */,
+				739AFA81809E61D14B967030 /* [CP] Embed Pods Frameworks */,
+				B75CBF67263167C1A5A9A299 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XESLoggerDemo;
+			productName = XESLoggerDemo;
+			productReference = A04349341F1DAACB0021F8E3 /* XESLoggerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A043492C1F1DAACB0021F8E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = luoshuai;
+				TargetAttributes = {
+					A04349331F1DAACB0021F8E3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 472P9J8R6U;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A043492F1F1DAACB0021F8E3 /* Build configuration list for PBXProject "XESLoggerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A043492B1F1DAACB0021F8E3;
+			productRefGroup = A04349351F1DAACB0021F8E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A04349331F1DAACB0021F8E3 /* XESLoggerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A04349321F1DAACB0021F8E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A043495F1F1DAE1F0021F8E3 /* Podfile in Resources */,
+				A04349471F1DAACB0021F8E3 /* LaunchScreen.storyboard in Resources */,
+				A04349441F1DAACB0021F8E3 /* Assets.xcassets in Resources */,
+				A04349611F1DB1D00021F8E3 /* XESLogger.podspec in Resources */,
+				A04349421F1DAACB0021F8E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2BC4080EDCDB4F422D9A0B2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XESLoggerDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		739AFA81809E61D14B967030 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XESLoggerDemo/Pods-XESLoggerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B75CBF67263167C1A5A9A299 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XESLoggerDemo/Pods-XESLoggerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A04349301F1DAACB0021F8E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0434B2C1F220B000021F8E3 /* README.md in Sources */,
+				A043493F1F1DAACB0021F8E3 /* ViewController.m in Sources */,
+				A043493C1F1DAACB0021F8E3 /* AppDelegate.m in Sources */,
+				A04349391F1DAACB0021F8E3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A04349401F1DAACB0021F8E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A04349411F1DAACB0021F8E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A04349451F1DAACB0021F8E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A04349461F1DAACB0021F8E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A04349491F1DAACB0021F8E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A043494A1F1DAACB0021F8E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A043494C1F1DAACB0021F8E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44F0EC73248F0A80E768360A /* Pods-XESLoggerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 472P9J8R6U;
+				INFOPLIST_FILE = XESLoggerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XESLoggerDemo/XESLogger",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bclib.XESLoggerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A043494D1F1DAACB0021F8E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 645A1AC036BB703510DD727B /* Pods-XESLoggerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 472P9J8R6U;
+				INFOPLIST_FILE = XESLoggerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XESLoggerDemo/XESLogger",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bclib.XESLoggerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A043492F1F1DAACB0021F8E3 /* Build configuration list for PBXProject "XESLoggerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A04349491F1DAACB0021F8E3 /* Debug */,
+				A043494A1F1DAACB0021F8E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A043494B1F1DAACB0021F8E3 /* Build configuration list for PBXNativeTarget "XESLoggerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A043494C1F1DAACB0021F8E3 /* Debug */,
+				A043494D1F1DAACB0021F8E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A043492C1F1DAACB0021F8E3 /* Project object */;
+}
