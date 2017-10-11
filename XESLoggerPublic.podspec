@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   #pod的名称
-  s.name         = "XESLogger"
+  s.name         = "XESLoggerPublic"
   #pod的版本
   s.version      = "0.0.1"
   #pod简介(最多140字符)

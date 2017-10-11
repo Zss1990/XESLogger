@@ -1,1 +1,1 @@
-pod trunk push XESLogger.podspec --verbose --allow-warnings
+pod trunk push XESLoggerPublic.podspec --verbose --allow-warnings

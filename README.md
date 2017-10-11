@@ -1,7 +1,7 @@
 
 ### 一、安装
 ##### 1.1、Installation with CocoaPods
-    1、在 `Podfile` 中添加 `pod 'XESLogger'`。
+    1、在 `Podfile` 中添加 `pod 'XESLoggerPublic'`。
     2、执行 `pod install` 或 `pod update`。    
     3、导入 `"XESLogger.h"`。
 
@@ -267,7 +267,7 @@ XESLog(@"debug日志");
 ---
 
 ### 历史版本
-* 0.5.0
+* 0.0.1
   * 初始化提交
   * 制作pod源
 
